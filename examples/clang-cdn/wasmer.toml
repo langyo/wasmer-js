@@ -8,7 +8,7 @@ entrypoint = "wasmer-sh"
 "wasmer/static-web-server" = "^1"
 
 [fs]
-"/public" = "dist"
+"/public" = "."
 "/etc/static-web-server" = "etc"
 
 [[command]]
